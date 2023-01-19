@@ -14,7 +14,7 @@ namespace Mission2InClass
 
             Random rnd = new Random();
 
-            // 'roll' dice, add up two die values, and increment results array to totall num times a single number was rolled
+            // 'roll' dice, add up two die values, and increment results array to total num times a single number was rolled
             for (int i = 0; i < numRolls; i++)
             {
                 int rollDie1 = rnd.Next(6);
